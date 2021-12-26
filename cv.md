@@ -6,11 +6,13 @@
 
 > email: max.moderation@gmail.com
 
+> discord rs-school: MaxD-1987#7575
+
 Стремлюсь к обретению новой специальности и устройству на позицию _'frontend developer'_ на данном этапе. В дальнейшем
 планирую приобретать и совершенствовать навыки в сфере веб-разработки. Стараюсь подойти к решению задач объективно
 и многосторонне. Не бросаю мыслить о решении проблемы, до полного ее выполнения.
 Занимался разработкой сайта в компании из моего города (верстка находится на [github](https://maks-1987.github.io/kontinentserv/) ).
-В процессе работы познакомился с библиотекой _jQuery_, методологией _БЭМ_ и  _SlickSlider_ (_'the last carousel you'll ever need'_).
+В процессе работы познакомился с библиотекой _jQuery_, методологией _БЭМ_ и _SlickSlider_ (_'the last carousel you'll ever need'_).
 Коммерческого (_боевого_) опыта в веб-разработке нет, но очень желаю развиваться и обучаться в этом направлении.
 
 Приобретенные навыки:
@@ -20,8 +22,12 @@
 ## **Пример кода:**
 
 ```javascript
-function frontendFlow() {
-  return 'Hello bestFriends, teamDream & independence';
+function isDivisible(n, x, y) {
+  if (n % x === 0 && n % y === 0) {
+    return true;
+  } else {
+    return false;
+  }
 }
 ```
 
