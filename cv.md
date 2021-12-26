@@ -1,12 +1,16 @@
 # Maksym Dudniev
 
-## **Контакты:**
+Ukraine
+
+## **Contacts:**
 
 > tel: +38 000 000 0000
 
 > email: max.moderation@gmail.com
 
 > discord rs-school: MaxD-1987#7575
+
+## **About myself:**
 
 Стремлюсь к обретению новой специальности и устройству на позицию _'frontend developer'_ на данном этапе. В дальнейшем
 планирую приобретать и совершенствовать навыки в сфере веб-разработки. Стараюсь подойти к решению задач объективно
@@ -15,11 +19,17 @@
 В процессе работы познакомился с библиотекой _jQuery_, методологией _БЭМ_ и _SlickSlider_ (_'the last carousel you'll ever need'_).
 Коммерческого (_боевого_) опыта в веб-разработке нет, но очень желаю развиваться и обучаться в этом направлении.
 
-Приобретенные навыки:
+**Аcquired skills:**
 
-> HTML5, CSS3 (SCSS), JS(ES5), Git, WebPack 5. В обучении использую VScode.
+> HTML5, CSS3 (SCSS), JS(ES5), Git, WebPack 5. Favorite code editor - VScode.
 
-## **Пример кода:**
+## **Sample code:**
+
+task from [codewars.com](https://www.codewars.com/kata/5545f109004975ea66000086/solutions/javascript)
+
+**Description:**
+
+_Create a function that checks if a number n is divisible by two numbers x AND y. All inputs are positive, non-zero digits._
 
 ```javascript
 function isDivisible(n, x, y) {
@@ -31,13 +41,15 @@ function isDivisible(n, x, y) {
 }
 ```
 
-## **Образование:**
+## **Education:**
 
-    Криворожский Национальный Университет
-    специализация: инженерная геодезия
-    2010 - 2016
+Kryvyi Rih National University
 
-## **Пройденные курсы:**
+specialist's degree
+
+2010 - 2016
+
+## **Courses completed:**
 
 > [html](https://www.sololearn.com/Certificate/1014-2081762/jpg/)
 
@@ -45,4 +57,4 @@ function isDivisible(n, x, y) {
 
 > [js](https://www.sololearn.com/certificates/course/en/2081762/1024/landscape/png)
 
-## **Английский язык:** A1
+## **English language:** level A1
