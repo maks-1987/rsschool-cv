@@ -1,1 +1,1 @@
-[My_CV#1_exmple](https://github.com/maks-1987/rsschool-cv/blob/gh-pages/cv.md)
+[My_CV#1_exmple](https://maks-1987.github.io/rsschool-cv/cv)
