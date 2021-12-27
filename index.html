@@ -1,15 +1,145 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV</title>
-    <link rel="stylesheet" href="./scss/style.css">
-</head>
-<body>
-    
+    <link rel="stylesheet" href="./scss/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <div class="cv-content">
+          <!-- -------------- Left-side content CV ---------------- -->
+          <section class="left-content">
+            <div class="left-content__item color-line">
+              <div class="cv-foto">
+                <div class="cv-foto__content"></div>
+                <!-- <img src="" alt="cv-foto" /> -->
+              </div>
+              <ul class="cv-contacts">
+                <li class="cv-contacts__item tel">
+                  <div class="cv-contacts__title">Phone</div>
+                  <div class="cv-contacts__content">
+                    <a href="tel:+380669525606">+38 000 000 0000</a>
+                  </div>
+                </li>
+                <li class="cv-contacts__item mail">
+                  <div class="cv-contacts__title">Mail</div>
+                  <div class="cv-contacts__content">
+                    <a href="mailto:max.moderation@gmail.com">max.moderation@gmail.com</a>
+                  </div>
+                </li>
+                <li class="cv-contacts__item discord">
+                  <div class="cv-contacts__title">Discord</div>
+                  <div class="cv-contacts__content">
+                    <a target="_blank" href="MaxD-1987#7575">discord rs-school</a>
+                  </div>
+                </li>
+                <li class="cv-contacts__item rsschool">
+                  <div class="cv-contacts__title">RSschool</div>
+                  <div class="cv-contacts__content"><a target="_blank" href="https://app.rs.school/profile">RSschool</a></div>
+                </li>
+                <li class="cv-contacts__item location">
+                  <div class="cv-contacts__title">Location</div>
+                  <div class="cv-contacts__content"><a href="#">UKRAINE, Dnipropetrovsk region</a></div>
+                </li>
+                <!-- <li class="cv-contacts__github">GitHub<a href="#"></a></li> -->
+                <!-- <li class="cv-contacts__linkedin">LinkedIn<a href="#"></a></li> -->
+              </ul>
+            </div>
+            <div class="left-content__item">
+              <div class="cv-skills">
+                <div class="left-content__title">Skills:</div>
+                <div class="left-content__content">
+                  <p>HTML5, CSS3 (SCSS), JS(ES5), Git, WebPack 5.</p>
+                  <p>Favorite code editor - VScode.</p>
+                </div>
+              </div>
+            </div>
+            <div class="left-content__item">
+              <div class="cv-languages">
+                <div class="left-content__title">Languages:</div>
+                <div class="left-content__content">
+                  <ul>
+                    <li>English: A1</li>
+                    <li>Russian: native</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="left-content__item">
+              <div class="cv-hobbies">
+                <div class="left-content__title">Hobbies:</div>
+                <div class="left-content__content">
+                  <!-- <p>HTML5, CSS3 (SCSS), JS(ES5), Git, WebPack 5.</p> -->
+                  <p>Favorite code editor - VScode.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- -------------- Right-side content CV ---------------- -->
+          <section class="right-content">
+            <div class="right-content__item name-title">
+              <h2>Maksym Dudniev</h2>
+            </div>
+            <div class="right-content__item">
+              <div class="right-content__title">About me:</div>
+              <div class="right-content__content about-content">
+                Стремлюсь к обретению новой специальности и устройству на позицию 'frontend developer' на данном этапе. В дальнейшем планирую приобретать и
+                совершенствовать навыки в сфере веб - разработки. Стараюсь подойти к решению задач объективно и многосторонне. Не бросаю мыслить о решении
+                проблемы, до полного ее выполнения. Занимался разработкой сайта в компании из моего города (верстка находится на
+                <a href="https://maks-1987.github.io/kontinentserv/">github</a>). В процессе работы познакомился с библиотекой jQuery, методологией БЭМ и
+                SlickSlider ('the last carousel you'll ever need'). 
+                <p>Коммерческого (боевого) опыта нет, но очень желаю развиваться и обучаться в этом
+                направлении.</p>
+              </div>
+            </div>
+            <div class="right-content__item">
+              <div class="right-content__title">Education:</div>
+              <div class="right-content__content">
+                <p>Kryvyi Rih National University</p>
+                <p>specialist's degree</p>
+                <p>2010 - 2016</p>
+              </div>
+            </div>
+            <div class="right-content__item">
+              <div class="right-content__title">Courses completed:</div>
+              <div class="right-content__content">
+                <ul class="courses">
+                  <li><a href="https://www.sololearn.com/Certificate/1014-2081762/jpg/">html</a></li>
+                  <li><a href="https://www.sololearn.com/Certificate/1023-2081762/jpg/">css</a></li>
+                  <li><a href="https://www.sololearn.com/certificates/course/en/2081762/1024/landscape/png">js</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="right-content__item">
+              <div class="right-content__title">Sample code:</div>
+              <div class="right-content__content">
+                <p>task from <a href="https://www.codewars.com/kata/5545f109004975ea66000086/solutions/javascript">codewars.com</a></p>
+                <p>Description:</p>
+                <span>Create a function that checks if a number n is divisible by two numbers x AND y. All inputs are positive, non-zero digits.</span>
+                <p>
+                  <code>
+                    <pre>
+                    function isDivisible(n, x, y) {
+                        if (n % x === 0 && n % y === 0) {
+                            return true;
+                        } else { 
+                            return false; 
+                        }
+                    }
+                    </pre>
+                  </code>
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
 
     <!-- <script src="script.js"></script> -->
-</body>
+  </body>
 </html>
