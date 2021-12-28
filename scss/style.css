@@ -548,7 +548,7 @@ h6 {
 }
 
 .cv-contacts__item.location::before {
-  background-image: url("/img/locate_gps.svg");
+  background-image: url("../img/locate_gps.svg");
 }
 
 .cv-contacts__title {
