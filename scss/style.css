@@ -435,13 +435,18 @@ h6 {
 .wrapper {
   min-height: 100%;
   overflow: hidden;
-  border-bottom: 15px solid #d30000;
 }
 
 .container {
-  max-width: 1140px;
+  max-width: 1040px;
   margin: 0 auto;
   padding: 0px 40px;
+}
+
+.hor-line {
+  border-bottom: 15px solid #d30000;
+  width: 1040px;
+  margin: 0 auto;
 }
 
 .color-line::before {
@@ -497,7 +502,7 @@ h6 {
   margin-right: 0;
   width: 100%;
   height: 100%;
-  background-image: url("/img/ava_viber.jpg");
+  background-image: url("../img/ava_viber.jpg");
   background-size: cover;
   border-radius: 50%;
 }
@@ -523,15 +528,15 @@ h6 {
 }
 
 .cv-contacts__item.tel::before {
-  background-image: url("/img/phone.svg");
+  background-image: url("../img/phone.svg");
 }
 
 .cv-contacts__item.mail::before {
-  background-image: url("/img/mail_email.svg");
+  background-image: url("../img/mail_email.svg");
 }
 
 .cv-contacts__item.discord::before {
-  background-image: url("/img/discord.svg");
+  background-image: url("../img/discord.svg");
 }
 
 .cv-contacts__item.rsschool::before {
