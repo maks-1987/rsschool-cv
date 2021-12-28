@@ -435,23 +435,23 @@ h6 {
 .wrapper {
   min-height: 100%;
   overflow: hidden;
-  border-bottom: 15px solid #e0b731;
+  border-bottom: 15px solid #d30000;
 }
 
 .container {
   max-width: 1140px;
   margin: 0 auto;
-  padding: 0 30px;
+  padding: 0px 40px;
 }
 
 .color-line::before {
   content: '';
   position: absolute;
-  left: -30px;
+  left: -40px;
   top: -50px;
-  width: 30px;
+  width: 40px;
   height: 105.55%;
-  background-color: #e0b731;
+  background-color: #d30000;
 }
 
 .cv-content {
@@ -461,7 +461,7 @@ h6 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  font-family: Arial, 'Helvetica Neue', Helvetica;
+  font-family: Tahoma, sans-serif;
   font-size: 14px;
   line-height: 20px;
   padding-top: 50px;
@@ -478,10 +478,11 @@ h6 {
 }
 
 .left-content__title {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: bold;
   text-transform: uppercase;
   line-height: 26px;
+  letter-spacing: 2px;
   line-height: 28px;
   padding-bottom: 28px;
 }
@@ -505,8 +506,44 @@ h6 {
   padding-left: 10px;
 }
 
+.cv-contacts__item::before {
+  content: '';
+  position: absolute;
+  left: -42px;
+  top: 8px;
+  height: 24px;
+  width: 24px;
+  background-size: cover;
+  background-position: center;
+}
+
 .cv-contacts__item {
   padding: 0px 0px 20px 0px;
+  position: relative;
+}
+
+.cv-contacts__item.tel::before {
+  background-image: url("/img/phone.svg");
+}
+
+.cv-contacts__item.mail::before {
+  background-image: url("/img/mail_email.svg");
+}
+
+.cv-contacts__item.discord::before {
+  background-image: url("/img/discord.svg");
+}
+
+.cv-contacts__item.rsschool::before {
+  content: 'RS';
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 24px;
+  text-align: center;
+}
+
+.cv-contacts__item.location::before {
+  background-image: url("/img/locate_gps.svg");
 }
 
 .cv-contacts__title {
@@ -533,6 +570,11 @@ h6 {
   border: 2px solid #000000;
   text-transform: uppercase;
   padding: 10px 0px;
+  letter-spacing: 3px;
+}
+
+.right-content span {
+  font-weight: 100;
 }
 
 .right-content h2:before {
@@ -554,14 +596,57 @@ h6 {
 }
 
 .right-content__title {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: bold;
   text-transform: uppercase;
   line-height: 26px;
+  letter-spacing: 2px;
   padding-bottom: 20px;
 }
 
 .right-content__content.about-content {
   font-style: italic;
+}
+
+.right-content .example-title {
+  font-weight: 600;
+  font-style: italic;
+  padding: 10px 0px;
+}
+
+.right-content .example-description {
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.example-code {
+  padding: 10px 0px 10px 15%;
+  font-family: monospace;
+  border: 2px solid #000000;
+  position: relative;
+}
+
+.example-code::before {
+  content: '';
+  position: absolute;
+  top: -3px;
+  left: 32%;
+  height: 5px;
+  width: 40%;
+  background-color: #ffffff;
+}
+
+.cv-languages li,
+.courses li {
+  list-style: inside;
+}
+
+a {
+  color: #d30000;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #1100ff;
 }
 /*# sourceMappingURL=style.css.map */
