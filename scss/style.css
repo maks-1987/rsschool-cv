@@ -775,15 +775,15 @@ body {
 }
 
 .cv-contacts__item.tel::before {
-  background-image: url("../img/phone.svg");
+  background-image: url("../assets/img/phone.svg");
 }
 
 .cv-contacts__item.mail::before {
-  background-image: url("../img/mail_email.svg");
+  background-image: url("../assets/img/mail_email.svg");
 }
 
 .cv-contacts__item.discord::before {
-  background-image: url("../img/discord.svg");
+  background-image: url("../assets/img/discord.svg");
 }
 
 .cv-contacts__item.rsschool::before {
@@ -795,7 +795,7 @@ body {
 }
 
 .cv-contacts__item.location::before {
-  background-image: url("../img/locate_gps.svg");
+  background-image: url("../assets/img/locate_gps.svg");
 }
 
 @media (max-width: 500px) {
@@ -910,7 +910,7 @@ a:hover {
 .rssjs {
   width: 80px;
   height: 30px;
-  background-image: url("../img/rs_school_js.svg");
+  background-image: url("../assets/img/rs_school_js.svg");
   background-size: contain;
   background-repeat: no-repeat;
 }
