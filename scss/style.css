@@ -642,9 +642,9 @@ body {
   position: absolute;
   content: '';
   left: -51px;
-  top: -378px;
+  top: -440px;
   width: 50px;
-  height: 212.55%;
+  height: 230.55%;
   background-color: #ff5757;
 }
 
@@ -682,6 +682,16 @@ body {
 .section-left {
   padding-right: 35px;
   min-width: 250px;
+}
+
+.section-left h2.title-contacts {
+  margin-bottom: 20px;
+  padding-left: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 26px;
+  letter-spacing: 2px;
 }
 
 .section-left__item {
