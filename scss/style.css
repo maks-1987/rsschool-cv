@@ -470,12 +470,6 @@ body {
   content: '';
 }
 
-.nav {
-  /* @media (max-width: 675px) {
-    display: none;
-  } */
-}
-
 .nav-container {
   border-left: 49px solid #ff5757;
 }
