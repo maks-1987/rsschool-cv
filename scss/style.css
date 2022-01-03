@@ -791,6 +791,10 @@ body {
   padding-left: 15px;
 }
 
+.section-right__content li {
+  list-style: inside;
+}
+
 .section-right__content.about-content {
   font-style: italic;
 }
