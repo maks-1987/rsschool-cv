@@ -1,2 +1,3 @@
+>[CV - markdown](https://maks-1987.github.io/rsschool-cv/cv)
 
-[My_CV#3_exmple](https://maks-1987.github.io/rsschool-cv/)
+>[CV - html & css](https://maks-1987.github.io/rsschool-cv/)
