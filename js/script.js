@@ -22,7 +22,7 @@
 }); */
 
 // Adaptive menu
-const toggleBtn = document.querySelector('.burger-menu');
+/* const toggleBtn = document.querySelector('.burger-menu');
 const nav = document.querySelector('.burger-menu__button');
 const navList = document.querySelector('.burger-menu__list');
 const navItems = document.querySelectorAll('.nav-item');
@@ -39,6 +39,7 @@ function closeMenu() {
     toggleBtn.classList.remove('collapsed');
     nav.classList.remove('collapsed');
     navList.classList.remove('collapsed');
-  }, 1000);  
+  }, 1000);
 }
-navItems.forEach(el => el.addEventListener('click', closeMenu));
+navItems.forEach((el) => el.addEventListener('click', closeMenu));
+ */
