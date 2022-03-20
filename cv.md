@@ -10,18 +10,17 @@ Ukraine
 
 > discord rs-school: MaxD-1987#7575
 
+> telegram: [maxdudniev](https://t.me/maxdudniev)
+
 ## **About myself:**
 
-Стремлюсь к обретению новой специальности и устройству на позицию _'frontend developer'_ на данном этапе. В дальнейшем
-планирую приобретать и совершенствовать навыки в сфере веб-разработки. Стараюсь подойти к решению задач объективно
-и многосторонне. Не бросаю мыслить о решении проблемы, до полного ее выполнения.
-Занимался разработкой сайта в компании из моего города (верстка находится на [github](https://maks-1987.github.io/kontinentserv/) ).
-В процессе работы познакомился с библиотекой _jQuery_, методологией _БЭМ_ и _SlickSlider_ (_'the last carousel you'll ever need'_).
-Коммерческого (_боевого_) опыта в веб-разработке нет, но очень желаю развиваться и обучаться в этом направлении.
+I am striving to acquire a new specialty and get a position as a _'frontend developer'_ at this stage. In the future, I plan to acquire and improve skills in the field of web development. I try to approach the solution of problems objectively and multilaterally. I do not stop thinking about solving the problem, until it is completely completed. 
+
+I was developing a site in a company from my city (layout is on [github](https://maks-1987.github.io/kontinentserv/) ). In the course of work, I got acquainted with the jQuery library, the BEM methodology and _SlickSlider_. I have no commercial (combat) experience in web development, but I really want to develop and learn in this direction.
 
 **Аcquired skills:**
 
-> HTML5, CSS3 (SCSS), JS(ES5), Git, WebPack 5. Favorite code editor - VScode.
+> HTML5, CSS3 (SCSS), JS(ES6), Git, WebPack 5. Favorite code editor - VScode.
 
 ## **Sample code:**
 
@@ -57,4 +56,7 @@ specialist's degree
 
 > [js](https://www.sololearn.com/certificates/course/en/2081762/1024/landscape/png)
 
-## **English language:** level A1
+> [js / rs-school](https://rs.school/js/) - in progress
+
+## **English language:** 
+> level A1
