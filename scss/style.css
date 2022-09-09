@@ -189,9 +189,9 @@ select {
  * Correct the inability to style clickable types in iOS and Safari.
  */
 button,
-[type=button],
-[type=reset],
-[type=submit] {
+[type='button'],
+[type='reset'],
+[type='submit'] {
   -webkit-appearance: button;
 }
 
@@ -199,9 +199,9 @@ button,
  * Remove the inner border and padding in Firefox.
  */
 button::-moz-focus-inner,
-[type=button]::-moz-focus-inner,
-[type=reset]::-moz-focus-inner,
-[type=submit]::-moz-focus-inner {
+[type='button']::-moz-focus-inner,
+[type='reset']::-moz-focus-inner,
+[type='submit']::-moz-focus-inner {
   border-style: none;
   padding: 0;
 }
@@ -210,9 +210,9 @@ button::-moz-focus-inner,
  * Restore the focus styles unset by the previous rule.
  */
 button:-moz-focusring,
-[type=button]:-moz-focusring,
-[type=reset]:-moz-focusring,
-[type=submit]:-moz-focusring {
+[type='button']:-moz-focusring,
+[type='reset']:-moz-focusring,
+[type='submit']:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
 
@@ -263,8 +263,8 @@ textarea {
  * 1. Add the correct box sizing in IE 10.
  * 2. Remove the padding in IE 10.
  */
-[type=checkbox],
-[type=radio] {
+[type='checkbox'],
+[type='radio'] {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   /* 1 */
@@ -275,8 +275,8 @@ textarea {
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
-[type=number]::-webkit-inner-spin-button,
-[type=number]::-webkit-outer-spin-button {
+[type='number']::-webkit-inner-spin-button,
+[type='number']::-webkit-outer-spin-button {
   height: auto;
 }
 
@@ -284,7 +284,7 @@ textarea {
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
  */
-[type=search] {
+[type='search'] {
   -webkit-appearance: textfield;
   /* 1 */
   outline-offset: -2px;
@@ -294,7 +294,7 @@ textarea {
 /**
  * Remove the inner padding in Chrome and Safari on macOS.
  */
-[type=search]::-webkit-search-decoration {
+[type='search']::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
@@ -408,10 +408,6 @@ a:visited {
   text-decoration: none;
 }
 
-a:hover {
-  text-decoration: none;
-}
-
 ul li {
   list-style: none;
 }
@@ -427,17 +423,23 @@ h4,
 h5,
 h6 {
   font-size: inherit;
-  font-weight: 400;
 }
 
 /* ========================================================== */
-/* CV-colors */
+:root {
+  --bg-color: #e4fff6;
+}
+
 html {
   scroll-behavior: smooth;
 }
 
+body {
+  background-color: var(--bg-color);
+}
+
 .container {
-  max-width: 1440px;
+  max-width: 1140px;
   margin: 0 auto;
   padding: 0px 50px;
   overflow: hidden;
@@ -485,8 +487,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
   padding: 15px 0px;
 }
 
@@ -503,10 +505,15 @@ body {
 
 .navlist__link.links {
   color: #000000;
+  transition: all 0.4s ease;
+}
+
+.navlist__item a {
+  transition: text-decoration 0.4s;
 }
 
 .navlist__link.links:hover {
-  text-decoration: none;
+  color: #bf0101;
 }
 
 .navlist.burger-menu {
@@ -515,7 +522,7 @@ body {
 
 .navlist.burger-menu.active {
   display: initial;
-  background-color: aqua;
+  background-color: var(--bg-color);
   position: absolute;
   left: 0;
   right: 0;
@@ -546,10 +553,12 @@ body {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
-.burger-button__lines, .burger-button__lines::before, .burger-button__lines::after {
+.burger-button__lines,
+.burger-button__lines::before,
+.burger-button__lines::after {
   position: absolute;
   width: 30px;
   height: 2px;
@@ -585,13 +594,13 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   margin-top: 20px;
 }
 
@@ -620,7 +629,7 @@ body {
   }
 }
 
-.title-section h1.name {
+.title-section .name {
   margin: 0px 0px 18px 10px;
 }
 
@@ -635,7 +644,8 @@ body {
   left: 30%;
   height: 5px;
   width: 40%;
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
+  background-color: var(--bg-color);
 }
 
 .color-line::before {
@@ -653,15 +663,15 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   padding-top: 35px;
 }
 
 @media (max-width: 762px) {
   .cv-content {
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
 }
 
@@ -669,13 +679,17 @@ body {
   height: 200px;
   width: 200px;
   margin: 0px 35px 35px 10px;
+  background: url(../assets/img/ava_viber.jpg) no-repeat;
+  background-position: 35% 20%;
+  background-size: 425%;
+  border-radius: 50%;
 }
 
 .cv-foto__content {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border-radius: 50%;
 }
 
@@ -731,15 +745,15 @@ body {
 }
 
 .cv-contacts__item.tel::before {
-  background-image: url("../assets/img/phone.svg");
+  background-image: url('../assets/img/phone.svg');
 }
 
 .cv-contacts__item.mail::before {
-  background-image: url("../assets/img/mail_email.svg");
+  background-image: url('../assets/img/mail_email.svg');
 }
 
 .cv-contacts__item.discord::before {
-  background-image: url("../assets/img/discord.svg");
+  background-image: url('../assets/img/discord.svg');
 }
 
 .cv-contacts__item.rsschool::before {
@@ -751,11 +765,15 @@ body {
 }
 
 .cv-contacts__item.location::before {
-  background-image: url("../assets/img/locate_gps.svg");
+  background-image: url('../assets/img/locate_gps.svg');
 }
 
 @media (max-width: 500px) {
-  .cv-contacts__item.tel::before, .cv-contacts__item.mail::before, .cv-contacts__item.discord::before, .cv-contacts__item.rsschool::before, .cv-contacts__item.location::before {
+  .cv-contacts__item.tel::before,
+  .cv-contacts__item.mail::before,
+  .cv-contacts__item.discord::before,
+  .cv-contacts__item.rsschool::before,
+  .cv-contacts__item.location::before {
     content: inherit;
   }
 }
@@ -857,7 +875,6 @@ a:hover {
 .footer {
   padding: 5px 0px;
   background-color: #ff5757;
-  max-width: 1440px;
   margin: 0 auto;
 }
 
@@ -866,12 +883,11 @@ a:hover {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  max-width: 1440px;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .link-footer {
@@ -883,7 +899,7 @@ a:hover {
 .rssjs {
   width: 80px;
   height: 30px;
-  background-image: url("../assets/img/rs_school_js.svg");
+  background-image: url('../assets/img/rs_school_js.svg');
   background-size: contain;
   background-repeat: no-repeat;
 }
